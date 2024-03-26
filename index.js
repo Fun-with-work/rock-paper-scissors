@@ -1,5 +1,13 @@
 // ** Game : Rock Paper Scissors**
 
+    // write a new function called playGame()
+    // put the old game inside this function
+    // add a counter for the game to have five rounds
+    // make a variable to keep score for wins and losses
+    // declare a winner after five rounds
+
+
+
 
 let array = ["rock", "paper", "scissors"];
  
@@ -28,12 +36,12 @@ function playRound() {
         if (computerSelection === "rock"){
             console.log ("You win! Paper beats rock")
         } else {
-            console.log ("You lose! Scissors beats Paper")
+            console.log ("You lose! Scissors beat Paper")
         }
     } 
     else if (playerSelection === "scissors") {
         if (computerSelection === "paper"){
-            console.log ("You win! Scissors beats Paper")
+            console.log ("You win! Scissors beat Paper")
         } else {
             console.log ("You lose! Rock beats Scissors")
         }
