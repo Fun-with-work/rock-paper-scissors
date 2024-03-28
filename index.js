@@ -13,7 +13,7 @@
 function playGame() {
    
 
-    for (let i = 0; i<5; i++)  {
+    for (let count = 0; count<5; count++)  {
      
 
         let array = ["ROCK", "PAPER", "SCISSORS"];
@@ -71,7 +71,7 @@ function playGame() {
             } 
             else {
                 console.log ("Your selection is not valid. Try again.")
-                i-- ;
+                count-- ;
             }
     
         }
@@ -105,117 +105,6 @@ function playGame() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-//         let array = ["rock", "PAPER", "scissors"];
-        
-//         computerSelection = array[Math.floor(Math.random() *array.length)];
-
-                
-//         let ans = prompt("Rock, Paper or Scissors? Make your selection!");
-//         playerSelection = ans.toLowerCase();
-
-
-        
-
-//         console.log ("You selected " + playerSelection, " Computer selected " + computerSelection);
-       
-//         let win, lose;
-
-//         function gameWin() {
-//             win= win++
-//             console.log (win);
-//         } ;
-
-//         function gameLoss() {
-//             lose= lose++
-//             console.log (lose);
-//         } ;
-
-      
-
-//         function playRound() {
-//             if (playerSelection === computerSelection ) {
-//                 console.log ("It is a tie! Play again.")
-
-//                 return;
-//             }   
-            
-//             else if (playerSelection === "rock" && computerSelection === "scissors")
-//                     (gameWin())
-//                     // console.log ("You win! Rock beats Scissors")
-//                 ||
-//                 (playerSelection === "rock" && computerSelection === "paper")
-//                     (gameLoss())
-//                     // console.log ("You lose! Paper beats rock");
-                
-             
-//             else if (playerSelection === "paper" && computerSelection === "rock")
-//                     (gameWin())
-//                     // console.log ("You win! Paper beats rock")
-//                 ||
-//                 (playerSelection === "paper" && computerSelection === "scissors")
-//                     (gameLoss())
-//                     // console.log ("You lose! Scissors beat Paper");
-                
-            
-//             else if (playerSelection === "scissors" && computerSelection === "paper")
-//                     (gameWin())
-//                     // console.log ("You win! Scissors beat Paper")
-//                 ||
-//                 (playerSelection === "scissors" && computerSelection === "rock")
-//                     (gameLoss())
-//                     // console.log ("You lose! Rock beats Scissors");
-                
-//                     console.log (gameWin());
-//             }
-//             // console.log ("Your selection is not valid.")
-        
-          
-    
-           
-//     // }  
-
-//     playRound();
-
-    
-// // } 
-
-// // playGame();
 
 
 
