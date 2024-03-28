@@ -1,12 +1,6 @@
 // ** Game : Rock Paper Scissors**
 
-    // write a new function called playGame()
-    // put the old game inside this function
-    // add a counter for the game to have five rounds
-    // make a variable to keep score for wins and losses
-    // declare a winner after five rounds
-
-
+   
     let y = 0; 
     let n = 0;
 
