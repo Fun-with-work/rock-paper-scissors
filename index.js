@@ -1,6 +1,5 @@
 // ** Game : Rock Paper Scissors**
 
-
 let winRound = 0;
 let loseRound = 0;
 
@@ -21,27 +20,29 @@ let loseRound = 0;
         paper.textContent = "PAPER";
         scissors.textContent = "SCISSORS";
         
-        const title = document.getElementById("myTitle");
         
-                
-        
+        const title = document.getElementById("myTitle"); 
+                        
         title.appendChild(rock);
         title.appendChild(paper);
         title.appendChild(scissors);
 
-        computerSelection = array[Math.floor(Math.random() * array.length)];
-
+        computerSelection = array[Math.floor(Math.random() * array.length)];   
         
+        let playerSelection;
 
 
-    //     let answer = prompt("ROCK, PAPER or SCISSORS? Enter your selection!");
-    //     playerSelection = answer.toUpperCase();
+    rock.addEventListener("click", (e)=>{playerSelection="ROCK"});
+    paper.addEventListener("click", (e)=>{playerSelection="PAPER"});
+    scissors.addEventListener("click", (e)=>{playerSelection="SCISSORS"});
 
+   
+    document.addEventListener("click", myFunction)
+    
+    function myFunction() {        
 
-
-
-    //     console.log("You selected " + playerSelection, " Computer selected " + computerSelection);
-
+        console.log("You selected " + playerSelection, " Computer selected " + computerSelection)
+    };
 
     //     function playRound() {
     //         if (playerSelection === computerSelection) {
