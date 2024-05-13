@@ -41,9 +41,13 @@ rock.style.marginRight = "25px";
 paper.style.backgroundColor = "paleBlue";
 paper.style.marginRight = "25px";
 scissors.style.backgroundColor = "paleBlue";
+rock.style.fontSize = "1.5rem";
+paper.style.fontSize = "1.5rem";
+scissors.style.fontSize = "1.5rem";
 
 myResult.style.color = "navyBlue";
 myResult.style.fontFamily = "helvetica";
+myResult.style.fontSize = "1.2rem";
 myResult.style.flex = "inline";
 myResult.style.marginTop = "50px";
 myResult.style.marginLeft = "50px";
